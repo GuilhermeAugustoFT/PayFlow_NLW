@@ -16,7 +16,7 @@ class LabelButton extends StatelessWidget {
       color: AppColors.shape,
       height: 56,
       child: TextButton(
-        onPressed: () {},
+        onPressed: onPressed,
         child: Text(
           label,
           style: style ?? TextStyles.buttonHeading,
